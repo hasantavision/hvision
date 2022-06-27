@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+hvision/settings.py
+hvision/core/migrations/*
+Lib
+Scripts
+pyvenv.cfg
+.idea
+*sgi.py

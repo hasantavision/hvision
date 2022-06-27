@@ -1,0 +1,5 @@
+Django==4.0.5
+djongo
+dnspython
+pymongo==3.12.1
+pytz
