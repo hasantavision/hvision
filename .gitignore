@@ -1,5 +1,5 @@
 # created by virtualenv automatically
-hvision/hvision/settings.py
+settings.py
 hvision/core/migrations/*.py
 Lib
 Scripts
