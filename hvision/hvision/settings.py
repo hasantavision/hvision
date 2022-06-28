@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from pymongo.server_api import ServerApi
+from secret import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -78,11 +78,9 @@ WSGI_APPLICATION = 'hvision.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'hvision',
+        'NAME': MONGODB_DB,
         'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            'host': 'mongodb+srv://hasantayouji:Kentanggoren9@hvision.rntjb.mongodb.net/hvision?retryWrites=true&w=majority'
-        }
+        'CLIENT': MONGODB_HOST
     }
 }
 

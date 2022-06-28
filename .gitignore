@@ -1,5 +1,4 @@
 # created by virtualenv automatically
-settings.py
 hvision/core/migrations/*.py
 Lib
 Scripts
